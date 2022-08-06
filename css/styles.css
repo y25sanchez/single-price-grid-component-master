@@ -1,0 +1,157 @@
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+:root{
+    --Cyan: hsl(179, 62%, 43%);
+    --Bright-Yellow: hsl(71, 73%, 54%);
+    --Light-Gray: hsl(204, 43%, 93%);
+    --Grayish-Blue: hsl(218, 22%, 67%);
+    --light-green: hsl(179, 62%, 83%);
+}
+
+body{
+    background-color: var(--Light-Gray);
+    font-family: 'Karla', sans-serif;;
+}
+
+.container{
+    background-color: white;
+    max-width: 31.3rem;
+    margin: 7.2rem auto 7.2rem;
+    border-radius: 0.8rem;
+    overflow: hidden;
+    transition: 0.2s ease;
+}
+
+.container:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 1px 14px 0px rgba(0,0,0,0.37);
+}
+
+.container__seg1{
+    padding: 0.8rem 2.4rem 2.4rem 2.4rem;
+}
+
+.container__seg1__content h1{
+    color: var(--Cyan);
+    font-size: 2rem;
+    margin-bottom: 2.6rem;
+}
+
+.container__seg1__content h2{
+    color: var(--Bright-Yellow);
+    margin-bottom: 2.4rem;
+}
+
+.container__seg1__content p{
+    font-size: 1.3rem;
+    color: var(--Grayish-Blue);
+    line-height: 1.8;
+    
+}
+
+.container__seg2{
+    background-color: var(--Cyan);
+    color: white;
+}
+
+.price{
+    font-size: 2.6rem;
+    font-weight: 700;
+    margin-right: 0.5rem;
+}
+
+.month{
+    color: var(--light-green);
+}
+
+
+.container__seg2__monthly p{
+    font-size: 1.3rem;
+}
+
+#signup button{
+    color: white;
+    font-weight: 700;
+    font-size: 1.4rem;
+    background-color: var(--Bright-Yellow);
+    border: none;
+    width: 100%;
+    height: 4.5rem;
+    border-radius: 0.8rem;
+    margin-top: 2rem;
+    transition: 0.2s ease;
+}
+
+#signup button:hover{
+    cursor: pointer;
+    background-color: var(--Cyan);
+    border: 2px solid var(--Bright-Yellow);
+    transform: scale(1.02);
+    box-shadow: 0px 1px 14px 0px rgba(0,0,0,0.37)
+}
+
+.container__seg2{
+    padding: 0.8rem 2.4rem 2.4rem 2.4rem;
+}
+
+.container__seg2__why{
+    padding: 0.8rem 2.4rem 2.4rem 2.4rem;
+    background-color: rgb(74, 190, 189);
+}
+
+.container__seg2__why h2{
+    color: white;
+    padding: 1rem 0;
+}
+
+.container__seg2__why p{
+    color: var(--light-green);
+    font-size: 1.3rem;
+    margin: 0 0 0.5rem 0;
+}
+
+
+@media screen and (min-width: 768px) {
+    .container{
+        max-width: 63.3rem;
+    }
+
+    .flex{
+        display: flex;
+    }
+
+    .container__seg2{
+        padding-right: 4.8rem;
+    }
+
+    .container__seg2__why{
+        padding: 0.8rem 14.4rem 2.4rem 2.4rem;
+        padding-right:14.4rem;
+        background-color: rgb(74, 190, 189);
+    }
+
+    .container__seg2__why p{
+        font-size: 1.2rem;
+    }
+
+    #signup button{
+        width: 23.7rem;
+    }
+}
+
+
+
+
+
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
