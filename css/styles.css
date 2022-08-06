@@ -123,6 +123,21 @@ body{
         display: flex;
     }
 
+    .container__seg1__content h1{
+        font-size: 3rem;
+    }
+
+    .container__seg1__content h2{
+        font-size: 2rem;
+        margin-bottom: 0;
+    }
+
+    .container__seg1__content p{
+        font-size: 1.5rem;
+        margin-right: 8.5rem;
+        margin-top: 1rem;
+    }
+
     .container__seg2{
         padding-right: 4.8rem;
     }
